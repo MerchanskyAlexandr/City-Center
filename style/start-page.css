@@ -1,0 +1,98 @@
+body
+{
+background:#133b5e;
+}
+#wrapper-nav
+{
+width:100%;
+height:700px;
+border-bottom:5px solid #195174;
+}
+#nav
+{
+width:978px;
+margin:0 auto;
+}
+a
+{
+width:250px;
+height:323px;
+display: block;
+margin:0 auto;
+}
+a:visited 
+{
+border: none;
+}
+a:active
+{
+border: none;
+}
+#navigate-main
+{
+margin:0 auto;
+}
+#main
+{
+width:250px;
+height:323px;
+background:url("../images/main-page.png");
+margin:0 auto;
+}
+a:hover #main
+{
+width:270px;
+height:349px;
+background:url("../images/hover-main-page.png");
+}
+#hotels
+{
+width:250px;
+height:323px;
+background:url("../images/hotel-page.png");
+margin:0 auto;
+}
+a:hover #hotels
+{
+width:270px;
+height:349px;
+background:url("../images/hover-hotel-page.png");
+}
+#cafe
+{
+width:250px;
+height:323px;
+background:url("../images/cafe-page.png");
+}
+a:hover #cafe
+{
+width:270px;
+height:349px;
+background:url("../images/hover-cafe-page.png");
+}
+#navigate-cafe-hotels a
+{
+float:left;
+margin-top:30px;
+}
+#excursions
+{
+width:250px;
+height:323px;
+background:url("../images/excursions-page.png");
+margin:0 auto;
+}
+a:hover #excursions
+{
+width:270px;
+height:349px;
+background:url("../images/hover-excursions-page.png");
+}
+#navigate-cafe
+{
+margin-left: 48%;
+}
+#navigate-excursions
+{
+margin-top:20px;
+}
