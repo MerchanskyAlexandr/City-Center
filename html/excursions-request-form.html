@@ -5,6 +5,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../style/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="../style/excursions.css" rel="stylesheet" type="text/css" media="all">
+<link href="../style/request-form.css" rel="stylesheet" type="text/css" media="all">
+<link href="../style/style-for-excursions.css" rel="stylesheet" type="text/css" media="all">
 <link rel="shortcut icon" href="../images/inner-logo.ico" type="image/x-icon">
 </head>
 <body class="top">
@@ -16,35 +19,43 @@
 		</a>
 		<nav id = "menu">
 			<ul class ="menu-list">
-				<li><a href="main.html" id = "active-menu">Головна</a>
+				<li><a href="main.html">Головна</a>
 				</li>
 				<li><a href="main.html">Готелі</a>
 				</li>
 				<li><a href="main.html">Громадські заклади</a>
 				</li>
-				<li><a href="excursions.html">Екскурсії</a>
+				<li><a href="excursions.html"  id = "active-menu">Екскурсії</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 </div>
-<div class = "wrapper-bg">
-</div>
-<div class = "wrapper-img-menu">
-	<div id = "inner-menu">
-		<a href="main.html">
-			<div id = "hotels">
+<div id = "wrapper-body-of-excursions">
+	<div id="excursions-borders">
+		<div class = "excursions-body" id="last-excursions">
+			<div class = "header-for-excursions">
+				<p>
+				Оформити заявку на екскурсію
+				</p>
 			</div>
-		</a>
-		<a href="main.html">
-			<div id = "cafe">
-			</div>
-		</a>
-		<a href="excursions.html">
-			<div id ="excursions">
-			</div>
-		</a>
-	</div>
+			<form id="request-form">
+				<input type = "text" name ="first-name" class = "full-name" value="Ваше Ім'я">
+				<input type = "text" name ="last-name" class = "full-name" value="Ваше Прізвище">
+				<input type = "text" name = "e-mail" class = "e-mail" value="Ваш e-mail">
+				<input type = "text" name = "telephone" class = "telephone" value="Ваш номер телефону">
+				<select name="select">
+					<option selected value="s1">Подорож українським Вавілоном</option>
+					<option value="s2">Екскурсія за чайові</option>
+					<option value="s3">Львів епохи Середньовіччя та Відродження</option>
+				</select>
+				<label>Залишити коментар
+				</label>
+				<textarea rows="10" cols="45" name="comment"></textarea>
+				<input type = "submit" name = "request-button" id = "request-button" value="Надіслати заявку">
+			</form>
+		</div>
+	</div>	
 </div>
 <div id = "wrapper-footer-nav">
 	<nav id = "footer-nav">
