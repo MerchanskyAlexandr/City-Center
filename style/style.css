@@ -1,183 +1,183 @@
 .top
 {
-margin:0; 
-padding:0; 
-font-size:14px; 
-line-height:1.6em;
-font-family:Tahoma;
+	margin:0; 
+	padding:0; 
+	font-size:14px; 
+	line-height:1.6em;
+	font-family:Tahoma;
 }
 #wrapper-header
 {
-border-top: 5px solid #195174;
-width:100%;
-height:100%;
+	border-top: 5px solid #195174;
+	width:100%;
+	height:100%;
 }
 #header
 {
-width:978px;
-height:100px;
-margin:0 auto;
+	width:978px;
+	height:100px;
+	margin:0 auto;
 }
 #logo
 {
-float:left;
-width:300px;
-height:80px;
-background:url('../images/logo.png');
-margin-top:10px;
+	float:left;
+	width:300px;
+	height:80px;
+	background:url('../images/logo.png');
+	margin-top:10px;
 }
 a:visited
 {
-border: none;
+	border: none;
 }
 a:hover #logo
 {
-background:url('../images/hover-logo.png');
+	background:url('../images/hover-logo.png');
 }
 #menu
 {
-float:right;
-margin-top:30px;
+	float:right;
+	margin-top:30px;
 }
 .menu-list li
 {
-float:left;
-font-size:18px;
-list-style:none;
-text-transform:uppercase;
-margin-right:20px;
-font-weight:bold;
-color:#a2a0a0;
+	float:left;
+	font-size:18px;
+	list-style:none;
+	text-transform:uppercase;
+	margin-right:20px;
+	font-weight:bold;
+	color:#a2a0a0;
 }
 .menu-list a
 {
-color:black;
-text-decoration:none;
+	color:black;
+	text-decoration:none;
 }
 .menu-list a:hover
 {
-color:#a2a0a0;
+	color:#a2a0a0;
 }
 #active-menu
 {
-color:#a2a0a0 !important;
+	color:#a2a0a0 !important;
 }
 .wrapper-bg
 {
-width:100%;
-height:620px;
-background:url("../images/wrapper-bg.png") center center no-repeat #a2a0a0;
+	width:100%;
+	height:620px;
+	background:url("../images/wrapper-bg.png") center center no-repeat #a2a0a0;
 }
 .wrapper-img-menu
 {
-width:100%;
-height:250px;
-background:#f3f3f3;
+	width:100%;
+	height:250px;
+	background:#f3f3f3;
 }
 #inner-menu
 {
-width:978px;
-height:220px;
-margin:0px auto;
+	width:978px;
+	height:220px;
+	margin:0px auto;
 }
 #inner-menu div
 {
-width:306px;
-height:220px;
-float:left;
-margin-top:15px;
-margin-right:25px;
+	width:306px;
+	height:220px;
+	float:left;
+	margin-top:15px;
+	margin-right:25px;
 }
 #hotels
 {
-background:url("../images/hotel-img.png")
+	background:url("../images/hotel-img.png")
 }
 a:hover #hotels 
 {
-background:url("../images/hover-hotel-img.png")
+	background:url("../images/hover-hotel-img.png")
 }
 #cafe
 {
-background:url("../images/cafe-img.png")
+	background:url("../images/cafe-img.png")
 }
 a:hover #cafe 
 {
-background:url("../images/hover-cafe-img.png")
+	background:url("../images/hover-cafe-img.png")
 }
 #excursions
 {
-margin-right:0px !important;
-background:url("../images/excursions-img.png");
+	margin-right:0px !important;
+	background:url("../images/excursions-img.png");
 }
 a:hover #excursions 
 {
-background:url("../images/hover-excursions-img.png");
+	background:url("../images/hover-excursions-img.png");
 }
 #wrapper-footer-nav
 {
-width:100%;
-height:170px;
-border-top: 5px solid #195174;
+	width:100%;
+	height:170px;
+	border-top: 5px solid #195174;
 }
 #feedback
 {
-height: 91px !important;
-background: url("../images/feedback.png");
-width: 250px !important;
-margin: 45px auto !important;
-float: none !important;
+	height: 91px !important;
+	background: url("../images/feedback.png");
+	width: 250px !important;
+	margin: 45px auto !important;
+	float: none !important;
 }
 a:hover #feedback
 {
-background: url("../images/hover-feedback.png");
+	background: url("../images/hover-feedback.png");
 }
 #footer-nav
 {
-width:978px;
-height:150px;
-margin:0 auto;
+	width:978px;
+	height:150px;
+	margin:0 auto;
 }
 #footer-nav div
 {
-width:306px;
-height:150px;
-float:left;
-margin:15px 20px 0 0;
+	width:306px;
+	height:150px;
+	float:left;
+	margin:15px 20px 0 0;
 }
 #footer-menu li
 {
-float:none !important;
-margin:10px auto;
+	float:none !important;
+	margin:10px auto;
 }
 #contacts
 {
-margin-right:0 !important;
+	margin-right:0 !important;
 }
 #wrapper-footer
 {
-width:100%;
-height:100px;
-background:#a2a0a0;
-border-top:5px solid #92c03a;
-margin-top:20px;
+	width:100%;
+	height:100px;
+	background:#a2a0a0;
+	border-top:5px solid #92c03a;
+	margin-top:20px;
 }
 #footer
 {
-width:978px;
-height:100px;
-margin:0 auto;
+	width:978px;
+	height:100px;
+	margin:0 auto;
 }
 #copyright
 {
-font-size:18px;
-color:white;
-margin:0 auto;
-width:210px;
-padding-top:40px;
+	font-size:18px;
+	color:white;
+	margin:0 auto;
+	width:210px;
+	padding-top:40px;
 }
 #contacts-info
 {
-font-size:16px;
-width:230px !important;
-margin:20px auto !important;
+	font-size:16px;
+	width:230px !important;
+	margin:20px auto !important;
 }
